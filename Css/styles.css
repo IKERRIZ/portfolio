@@ -10,10 +10,11 @@ body {
       left: 0;
   }
   nav{
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 10px 0;
-    margin-right: 0%;
+    background-color:palevioletred; 
+    width: 100%;
+    position: fixed;
+    top: 0;
+    float: right;
   }
   nav>ul{
     text-align: right;
@@ -38,5 +39,5 @@ body {
   }
   h1{
     text-transform: uppercase;
-    fo
+
   }
