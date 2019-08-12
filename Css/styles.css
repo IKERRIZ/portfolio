@@ -2,12 +2,10 @@ body {
     font-family: 'Work Sans', sans-serif;
     background-color: aquamarine;
   }
-  .container {
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      right: 0;
-      left: 0;
+  .container-fluid {
+      padding-right: 0px !important;
+      padding-left: 0px !important;
+      margin-left: 0px !important
   }
   nav{
       z-index: 2;
@@ -15,12 +13,14 @@ body {
     width: 100%;
     position: fixed;
     top: 0;
+    padding: 0px !important;
+    margin-left: 0px !important;
     float: right;
   }
   nav>ul{
     text-align: right;
   }
-  ul>li{
+  nav ul>li{
     display: inline-block;
   }
   nav>ul>li>a{
@@ -49,3 +49,14 @@ body {
       border-radius: 50%;
       z-index: -1;
   }
+  .skills li{
+      display: block;
+
+  }
+#about{
+    margin-left: 70px
+}
+footer{
+    background-color: grey;
+    overflow: hidden;
+}
